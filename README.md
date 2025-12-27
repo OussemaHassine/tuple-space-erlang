@@ -1,9 +1,3 @@
-# 🧩 Tuple Space in Erlang
-
-An Erlang-based implementation of a **Tuple Space**: a coordination model inspired by the Linda paradigm. This project was developed for the _Programming Languages and Paradigms_ course at the University of Urbino.
-
----
-
 ## 📚 Introduction
 
 A **Tuple Space** is a shared memory abstraction that allows concurrent processes to communicate by writing and reading tuples using **associative pattern matching**. It decouples producers and consumers in both time and space, making it well-suited for distributed and concurrent systems.
